@@ -29,12 +29,12 @@
     <a-scene>
       <a-assets>
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
-        <img id="image" crossorigin="anonymous" src="https://i.postimg.cc/jSvbZNg9/PANO-20240519-073551-2.jpg">
+        <img id="image1" crossorigin="anonymous" src="https://i.postimg.cc/jSvbZNg9/PANO-20240519-073551-2.jpg">
 
       </a-assets>
 
       <!-- 360-degree image. -->
-      <a-sky id="image-360" radius="10" src="#tes"
+      <a-sky id="image-360" radius="10" src="#image1"
              animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
              animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"></a-sky>
 
