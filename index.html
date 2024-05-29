@@ -28,7 +28,9 @@
   <body>
     <a-scene>
      <a-assets>
-        <img id="tumb" crossorigin="anonymous" src="3D_image/tumbnail.png">
+        <img id="besuki-thumb" crossorigin="anonymous" src="3D_image/besuki-thumb.png">
+        <img id="besuki2-thumb" crossorigin="anonymous" src="3D_image/besuki2-thumb.png">
+        <img id="besuki3-thumb" crossorigin="anonymous" src="3D_image/besuki3-thumb.png">
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
         <img id="besuki" crossorigin="anonymous" src="3D_image/besuki.jpg">
         <img id="besuki2" crossorigin="anonymous" src="3D_image/besuki2.jpg">
@@ -43,9 +45,9 @@
 
       <!-- Image links. -->
       <a-entity id="links" layout="type: line; margin: 1.5" position="-1.5 -1 -4">
-        <a-entity template="src: #link" data-src="#besuki" data-thumb="#tumb"></a-entity>
-        <a-entity template="src: #link" data-src="#besuki2" data-thumb="#tumb"></a-entity>
-        <a-entity template="src: #link" data-src="#besuki3" data-thumb="#tumb"></a-entity>
+        <a-entity template="src: #link" data-src="#besuki" data-thumb="#besuki-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#besuki2" data-thumb="#besuki2-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#besuki3" data-thumb="#besuki3-thumb"></a-entity>
       </a-entity>
 
       <!-- Camera + cursor. -->
